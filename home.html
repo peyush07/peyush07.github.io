@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description=" content="Homepage with Home,About me,Contact, Photo.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="homepage.css"> 
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="logo"> 
+        HTML & CSS
+    </div>
+    <nav>
+        <ul id="navbar">
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Contact</li>
+            <li>Photos</li>
+        </ul>
+    </nav>
+    <div id="infoContainer">
+        <div id="home" class="infobox displayBlock">
+            <p>Hello, I am <strong>Peyush</strong>, a Dev Intern at <strong>Zemoso.</strong></p>
+            <p>I am currently learning <em>HTML CSS</em> . After this I will be learning Javascript and React.</p>
+        </div>
+        <div id="aboutMe" class="infobox dontDisplay">
+            <p>I like playing outdoor sports and video games.</p>
+        </div>
+        <div id="contact" class="infobox dontDisplay">
+            <a href="https://github.com/peyush07/" target="_blank"><img src="GitHub-Mark-64px.png" alt="github" /></a>
+            <p>Github</p>
+            <p>Email : peyush.kumar@zemosolabs.com</p>
+            <p>Mobile : 9871569002</p>            
+        </div>
+        <div id="photos" class="dontDisplay">
+            <div id="imageCollection">          
+            </div>
+        </div>
+    </div>
+    <script src="homepage.js"></script>
+    <script src="getImages.js"></script>
+</body>
+</html>
